@@ -23,16 +23,14 @@
 
 ### **Weekly Focus on Challenges and Problem-Solving (Weeks 1–30)**  
 
-| **Weeks**      | **Milestone Category**                | **Focus Tasks**                                |
-|----------------|---------------------------------------|-----------------------------------------------|  
-| **Week 1–4**   | **Python Fundamentals**               | Python basics (variables, loops, functions), OOP, Git, and simple projects. |
-| **Week 5–8**   | **Web Development Basics**            | HTML/CSS, JavaScript, Flask/Django basics, and SQL/database integration. |
-| **Week 9–12**  | **Advanced Web Development**          | Advanced React, REST APIs, Docker basics, and CI/CD pipelines. |
-| **Week 13–16** | **Data Science Foundations**          | NumPy, Pandas, data visualization, EDA, regression models. |
-| **Week 17–20** | **Machine Learning Basics**           | Classification models, neural networks, model evaluation, and ML model deployment. |
-| **Week 21–24** | **Advanced Machine Learning**         | Dockerized ML models, reinforcement learning, advanced algorithms (XGBoost, SVM). |
-| **Week 25–27** | **Full-Stack AI and Docker**          | Build full-stack AI web apps, advanced Docker concepts, and CI/CD for production apps. |
-| **Week 28–30** | **Final Project & Deployment**        | Cloud deployment (Heroku/AWS/GCP), final project development, and launch. |
+
+| Phase| Topic| Duration | Weekly Breakdown|
+|------|------|----------|-----------------|
+|**Phase 1</td>**|**Python Fundamentals and Basic Development**|Weeks 1–4|**Week 1:** Python basics (variables, data types, loops, control flow) <br> **Week 2:** Functions, error handling, and mini‑projects <br> **Week 3:** Strings, file I/O, and introductory mini‑projects <br> **Week 4:** Advanced data structures and version control (Git) |
+| **Phase 2**|**Web Development Basics** |Weeks 5–8| **Week 5:** Introduction to HTML/CSS and JavaScript fundamentals <br> **Week 6:** Basic web frameworks (Flask/Django) and building simple APIs <br> **Week 7:** SQL and database integration <br> **Week 8:** Building a basic web app with integrated databases |
+| **Phase 3**|**Advanced Web Development (Including Docker & CI/CD)** | Weeks 9–12 | **Week 9:** Advanced JavaScript and an introduction to React <br> **Week 10:** REST API development (using Flask/Django REST Framework) <br> **Week 11:** Docker fundamentals and containerization <br> **Week 12:** Introduction to CI/CD pipelines and deploying web apps |
+| **Phase 4**|**Introduction to Data Science and Machine Learning** | Weeks 13–20 | **Weeks 13–16:** Data Science Foundations (NumPy, Pandas, data visualization, EDA, regression models) <br> **Weeks 17–20:** Machine Learning Basics (classification models, neural networks, model evaluation, ML model deployment) |
+| **Phase 5**|**Advanced AI/ML, Full-Stack Development, Docker, and CI/CD** | Weeks 21–30 | **Weeks 21–24:** Advanced Machine Learning (reinforcement learning, advanced algorithms like XGBoost, SVM) <br> **Weeks 25–27:** Full‑Stack AI and Docker (building AI-integrated web apps, advanced Docker, and CI/CD for production) <br> **Weeks 28–30:** Final project & deployment (cloud deployment, final project development, and launch) |
 
 ### **Final Tips for Success:**
 

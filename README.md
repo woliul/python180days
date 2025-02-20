@@ -49,6 +49,7 @@
 - 10:00–11:30 PM: Practice (coding exercises)
 
 #### **Week 1 (Days 1–7: Introduction & Variables)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **1**   | Introduction to Python & setting up the environment          | Write “Hello, World” and explore your IDE/setup           |

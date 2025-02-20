@@ -26,7 +26,7 @@
 
 | Phase| Topic| Duration | Weekly Breakdown|
 |------|------|----------|-----------------|
-|**Phase 1</td>**|**Python Fundamentals and Basic Development**|Weeks 1–4|**Week 1:** Python basics (variables, data types, loops, control flow) <br> **Week 2:** Functions, error handling, and mini‑projects <br> **Week 3:** Strings, file I/O, and introductory mini‑projects <br> **Week 4:** Advanced data structures and version control (Git) |
+|**Phase 1**|**Python Fundamentals and Basic Development**|Weeks 1–4|**Week 1:** Python basics (variables, data types, loops, control flow) <br> **Week 2:** Functions, error handling, and mini‑projects <br> **Week 3:** Strings, file I/O, and introductory mini‑projects <br> **Week 4:** Advanced data structures and version control (Git) |
 | **Phase 2**|**Web Development Basics** |Weeks 5–8| **Week 5:** Introduction to HTML/CSS and JavaScript fundamentals <br> **Week 6:** Basic web frameworks (Flask/Django) and building simple APIs <br> **Week 7:** SQL and database integration <br> **Week 8:** Building a basic web app with integrated databases |
 | **Phase 3**|**Advanced Web Development (Including Docker & CI/CD)** | Weeks 9–12 | **Week 9:** Advanced JavaScript and an introduction to React <br> **Week 10:** REST API development (using Flask/Django REST Framework) <br> **Week 11:** Docker fundamentals and containerization <br> **Week 12:** Introduction to CI/CD pipelines and deploying web apps |
 | **Phase 4**|**Introduction to Data Science and Machine Learning** | Weeks 13–20 | **Weeks 13–16:** Data Science Foundations (NumPy, Pandas, data visualization, EDA, regression models) <br> **Weeks 17–20:** Machine Learning Basics (classification models, neural networks, model evaluation, ML model deployment) |

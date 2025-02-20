@@ -61,6 +61,7 @@
 | **7**   | **Reflection:** Review week’s learning and challenges          | Document improvements and questions                       |
 
 #### **Week 2 (Days 8–14: Loops and Functions)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **8**   | For and while loops                                          | Write loops over ranges and lists                         |
@@ -72,6 +73,7 @@
 | **14**  | **Reflection:** Review loops, functions & mini project progress| Reflect on challenges and document improvements           |
 
 #### **Week 3 (Days 15–21: Strings, Error Handling & File I/O)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **15**  | String manipulation and methods                              | Practice reversing, splitting, and joining strings        |
@@ -83,6 +85,7 @@
 | **21**  | **Reflection:** Review strings & error handling              | Summarize lessons learned and note areas for improvement    |
 
 #### **Week 4 (Days 22–30: Advanced Data Structures & Version Control)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **22**  | Advanced list operations: insertion, deletion, slicing       | Manipulate lists using advanced techniques                |
@@ -105,6 +108,7 @@
 - 9:45–11:30 PM: Practice exercises and mini‑projects
 
 #### **Weeks 5–6 (Days 31–44: Object‑Oriented Programming)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **31**  | Introduction to classes and objects                           | Define a simple class (e.g., Car)                          |
@@ -123,6 +127,7 @@
 | **44**  | **Reflection (Week 6):** Review OOP projects and lessons         | Reflect on challenges and next steps                      |
 
 #### **Weeks 7–8 (Days 45–58: Modules, Packages & Intro to Web Basics)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **45**  | Python modules and standard libraries                           | Experiment with modules like `math` and `datetime`         |
@@ -141,6 +146,7 @@
 | **58**  | Q&A and documentation of challenges                           | Record common issues and solutions                        |
 
 #### **Weeks 9–10 (Days 59–72: Data Handling, APIs & Intro to SQL)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **59**  | JSON and data serialization basics                             | Write code to serialize/deserialize JSON data             |
@@ -159,6 +165,7 @@
 | **72**  | Final Q&A and practice session for Phase 2 topics                    | Consolidate your learning with additional exercises         |
 
 #### **Weeks 11–12 (Days 73–90: Intermediate Projects & Consolidation)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **73**  | Intermediate project planning: Integrating learned concepts         | Outline a comprehensive project combining OOP, APIs, and basic web front‑end elements |
@@ -190,6 +197,7 @@
 - 9:45–11:30 PM: Practice exercises and mini‑projects
 
 #### **Weeks 13–14 (Days 91–104: Advanced Functions and Iterators)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **91**  | Map, filter, and reduce functions                              | Implement examples using these higher‑order functions     |
@@ -208,6 +216,7 @@
 | **104** | **Reflection (Week 14):** Final review of Advanced Functions        | Reflect on improvements and future applications            |
 
 #### **Weeks 15–16 (Days 105–118: Error Handling, Logging & Intro to Data Science Libraries)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **105** | Custom exceptions and raising exceptions                        | Write and test custom exception classes                   |
@@ -226,6 +235,7 @@
 | **118** | **Reflection (Week 16):** Data Science basics review                 | Reflect on learning and challenges with new libraries        |
 
 #### **Weeks 17–18 (Days 119–132: Databases, Data Persistence & Advanced SQL/ML Intro)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **119** | Introduction to SQLite and relational databases                  | Set up SQLite and create a simple database schema          |
@@ -244,6 +254,7 @@
 | **132** | Catch‑up/Extra practice: Solve database‑focused challenges             | Consolidate your database skills through exercises          |
 
 #### **Weeks 19–20 (Days 133–146: Algorithms, Data Structures & Advanced ML Intro)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **133** | Recursion fundamentals and problem‑solving                        | Implement recursive functions (e.g., factorial, Fibonacci)   |
@@ -262,6 +273,7 @@
 | **146** | Q&A/discussion session on algorithm solutions                           | Share alternative approaches and best practices            |
 
 #### **Weeks 21–22 (Days 147–150: Final Advanced Topics Wrap‑Up)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **147** | Catch‑up day: Review any advanced topics needing extra time           | Revisit challenging concepts with additional exercises     |
@@ -279,6 +291,7 @@
 - 9:45–11:30 PM: Practice projects and final integrations
 
 #### **Weeks 23–24 (Days 151–156: Web Development with Flask + Docker/CI/CD Intro)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **151** | Introduction to Flask and web frameworks                        | Set up a basic Flask app displaying “Hello, World!”         |
@@ -289,6 +302,7 @@
 | **156** | **Mini project:** Build a small Flask‑based web app and integrate **Docker basics** and **CI/CD concepts** (e.g., a GitHub Actions workflow) | Develop and refine your web app; containerize it with a Dockerfile and set up a basic CI/CD pipeline |
 
 #### **Weeks 25–26 (Days 157–162: Data Science, ML & Enhanced Front‑End)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **157** | Introduction to Pandas and basic data analysis                    | Load a dataset into a DataFrame and perform initial exploration  |
@@ -299,6 +313,7 @@
 | **162** | **Reflection:** Review Pandas, ML basics, and project outcomes           | Summarize findings and note areas for further exploration   |
 
 #### **Weeks 27–28 (Days 163–174: Final Project Phase – Full‑Stack AI App)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **163** | Final project brainstorming and planning                         | Outline your final project idea (full‑stack AI web app)      |
@@ -315,6 +330,7 @@
 | **174** | **Reflection (Final Project):** Present your project and gather feedback | Record a demo, gather feedback, and plan next steps            |
 
 #### **Weeks 29–30 (Days 175–180: Wrap‑Up, Portfolio & Future Planning)**
+
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **175** | Portfolio building: How to showcase projects and skills            | Organize your project files, update GitHub, and polish your portfolio |

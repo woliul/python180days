@@ -39,6 +39,8 @@
 - **Stay Adaptable**: Adjust the plan as needed based on your progress and learning speed.
 - **Celebrate Small Wins**: Recognize and celebrate your achievements to maintain motivation.
 
+---
+
 ## **Phase 1: Foundations (Days 1–30)**  
 **Goal:** Understand Python basics, syntax, core data types, and start using version control.
 

@@ -1,116 +1,112 @@
-## **Day 2: Variables and Data Types**  
+# **Day 2: Variables and Data Types**  
 
-### **Learning (9:00 - 10:00 PM)**  
-Today we’ll cover:  
-1. **Variables:** What they are and how to create them.  
-2. **Data types:** Strings, integers, floats, and basic type conversions.  
+## **1️⃣ What Are Variables?**  
+A **variable** is like a labeled box that stores data. It allows you to store and reuse values in your program.  
 
----
-
-### **1. What is a Variable?**  
-A variable is a named container that stores a value. Think of it as a "box" where you can store data.  
-- You can name a variable with letters, numbers, and underscores (`_`).  
-- Example:  
-  ```python
-  name = "Alice"
-  age = 25
-  height = 5.7
-  ```  
-  In the above example:  
-  - `name` holds a string (`"Alice"`)  
-  - `age` holds an integer (`25`)  
-  - `height` holds a float (`5.7`)  
-
----
-
-### **2. Common Data Types in Python**  
-
-1. **String (`str`):**  
-   Text enclosed in quotes.  
-   Example: `"Hello, world!"`  
-   ```python
-   greeting = "Hello, world!"
-   print(greeting)
-   ```  
-
-2. **Integer (`int`):**  
-   Whole numbers (positive or negative).  
-   Example: `42`  
-   ```python
-   number = 42
-   print(number)
-   ```
-
-3. **Float (`float`):**  
-   Decimal numbers.  
-   Example: `3.14`  
-   ```python
-   pi = 3.14
-   print(pi)
-   ```
-
-4. **Boolean (`bool`):**  
-   `True` or `False`.  
-   ```python
-   is_sunny = True
-   print(is_sunny)
-   ```
-
----
-
-### **3. Type Conversion (Casting)**  
-You can convert one type to another using `int()`, `float()`, `str()`, etc.  
-Examples:  
+### **Example:**  
 ```python
-age = "30"  # This is a string
-age_as_int = int(age)  # Converts to integer
-print(age_as_int)
-```  
+name = "Alice"
+age = 25
+height = 5.6
+```
+Here:  
+- `name` stores a **string** (`"Alice"`)  
+- `age` stores an **integer** (`25`)  
+- `height` stores a **float** (`5.6`)  
+
+---
+
+## **2️⃣ Data Types in Python**  
+
+| **Type**     | **Example**            | **Description**                          |
+|-------------|------------------------|------------------------------------------|
+| **String**  | `"Hello"`               | Text, always inside quotes (`""` or `''`) |
+| **Integer** | `10`, `-5`, `1000`      | Whole numbers                           |
+| **Float**   | `3.14`, `-0.5`, `2.0`   | Numbers with decimal points             |
+| **Boolean** | `True`, `False`         | Represents `True` or `False` values     |
+
+---
+
+## **3️⃣ Assigning Variables**
+You can assign values to variables using `=`:
 ```python
-number = 42  # Integer
-number_as_str = str(number)  # Converts to string
-print(number_as_str)
+city = "New York"
+score = 99
+pi = 3.1415
+is_raining = False
+```
+
+✅ Python is **dynamically typed**, so you don’t need to specify the type. The interpreter figures it out.
+
+---
+
+## **4️⃣ Printing Variables**  
+Use `print()` to display variable values:  
+```python
+name = "Bob"
+age = 30
+print(name)
+print(age)
+```
+**Output:**  
+```
+Bob
+30
+```
+
+You can combine strings using **f-strings**:  
+```python
+print(f"My name is {name} and I am {age} years old.")
+```
+**Output:**  
+```
+My name is Bob and I am 30 years old.
 ```
 
 ---
 
-### **Practice Exercises (10:00 - 11:30 PM)**  
+## **5️⃣ Changing Variable Values**
+Variables can be updated:
+```python
+x = 10
+print(x)  # Output: 10
 
-1. **Exercise 1:** Create and print variables of different types:  
-   - A string variable holding your name.  
-   - An integer variable for your age.  
-   - A float variable for your height.  
-   - A boolean variable indicating if you like pizza.  
-   Example:  
-   ```python
-   name = "John"
-   age = 28
-   height = 5.9
-   likes_pizza = True
-   print(name, age, height, likes_pizza)
-   ```
-
-2. **Exercise 2:** Use type conversion to do the following:  
-   - Convert a float to an integer.  
-   - Convert an integer to a string and print it.  
-   Example:  
-   ```python
-   number = 3.75
-   number_as_int = int(number)
-   print(number_as_int)  # Output: 3
-   ```
-
-3. **Exercise 3:** Create a program that asks the user for their name and age, then prints a message like:  
-   `"Hello, [name]! You are [age] years old."`  
-   Example:  
-   ```python
-   name = input("Enter your name: ")
-   age = input("Enter your age: ")
-   print(f"Hello, {name}! You are {age} years old.")
-   ```
+x = 20
+print(x)  # Output: 20
+```
 
 ---
 
-Let me know when you’re done, or if you have any questions while practicing! 😊
+## **6️⃣ Taking User Input**
+Use `input()` to get data from the user:
+```python
+name = input("Enter your name: ")
+print(f"Hello, {name}!")
+```
+
+All `input()` values are strings. Convert them when needed:
+```python
+age = int(input("Enter your age: "))  # Converts input to an integer
+print(f"Next year, you’ll be {age + 1} years old!")
+```
 
 ---
+
+## **🛠️ Practice Task**
+1. **Create variables** for your name, age, and favorite color. Print them.
+2. Ask the user for their **favorite number**, double it, and print the result.
+3. Write a program that **asks for the user’s birth year** and calculates their current age.
+
+---
+
+## **🔍 Reflection & Questions**
+- What’s the difference between `int`, `float`, and `string`?  
+- What happens if you try to add a number and a string? (`"5" + 5`)  
+- Try assigning different values to the same variable. What happens?  
+
+---
+
+### **In day 3: we will work on Lists, Tuples & Basic List Operations**  
+Get ready to work with collections of data! 🚀  
+
+Let me know if you have any questions. 😊

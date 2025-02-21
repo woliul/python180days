@@ -1,105 +1,138 @@
-Great to hear you're ready for Day 3! Let's dive into it.
+# **Day 4: Dictionaries & Sets**  
+
+Today, you’ll learn about **dictionaries** (key-value pairs) and **sets** (unordered unique items). These are useful for organizing and managing data efficiently.
 
 ---
 
-### **Day 3: Lists and Tuples**  
+## **1️⃣ What is a Dictionary?**  
+A **dictionary** is a collection of **key-value pairs**, where each key is unique, and it allows fast lookups.  
 
-**Learning (9:00 - 10:00 PM)**  
-Today we’ll cover:  
-1. **Lists:** Creating and manipulating lists.  
-2. **Tuples:** How they differ from lists and how to use them.  
+### **Example of a Dictionary**  
+```python
+person = {
+    "name": "Alice",
+    "age": 25,
+    "city": "New York"
+}
+```
+Here,  
+- `"name"`, `"age"`, and `"city"` are **keys**  
+- `"Alice"`, `25`, and `"New York"` are **values**  
+
+✅ **Dictionaries use curly braces `{}` and key-value pairs separated by `:`.**
 
 ---
 
-### **1. What is a List?**  
-A **list** is a collection of ordered items. The items can be of any data type (strings, integers, floats, etc.) and can even include other lists.  
-- Lists are **mutable**, which means you can change their contents (add, remove, or modify items).
-
-**Creating a list:**  
+## **2️⃣ Accessing Dictionary Values**  
+You can access values using keys:
 ```python
-fruits = ["apple", "banana", "cherry"]
-print(fruits)
+print(person["name"])  # Output: Alice
+print(person["age"])   # Output: 25
 ```
 
-**Accessing items in a list:**  
+### **Using `.get()` to Avoid Errors**
 ```python
-first_fruit = fruits[0]  # Indexing starts from 0
-print(first_fruit)  # Output: apple
-```
-
-**Modifying lists:**  
-```python
-fruits[1] = "orange"  # Changes 'banana' to 'orange'
-print(fruits)  # Output: ['apple', 'orange', 'cherry']
-```
-
-**List methods:**  
-- `.append()`: Adds an item to the end of the list.  
-- `.remove()`: Removes the first occurrence of a specified item.  
-- `.pop()`: Removes the item at the specified index (or last item by default).  
-- `.sort()`: Sorts the list in ascending order.  
-
-```python
-fruits.append("grape")  # Adds 'grape' to the end
-fruits.remove("orange")  # Removes 'orange'
-fruits.sort()  # Sorts the list alphabetically
-print(fruits)
+print(person.get("city"))   # Output: New York
+print(person.get("height"))  # Output: None (instead of an error)
 ```
 
 ---
 
-### **2. What is a Tuple?**  
-A **tuple** is similar to a list, but it is **immutable**, meaning that once a tuple is created, you cannot modify it (no adding, removing, or changing items).
-
-**Creating a tuple:**  
+## **3️⃣ Modifying Dictionaries**
+### **Adding and Updating Values**
 ```python
-coordinates = (10, 20, 30)
-print(coordinates)
+person["job"] = "Developer"  # Add new key-value pair
+person["age"] = 26  # Update value
+print(person)
 ```
 
-**Accessing items in a tuple:**  
+### **Removing Items**
 ```python
-x = coordinates[0]  # Accessing the first item
-print(x)  # Output: 10
+person.pop("city")  # Removes 'city' key
+del person["age"]   # Removes 'age' key
+person.clear()      # Removes all key-value pairs
 ```
 
-**Key differences between lists and tuples:**  
-- Lists are mutable (changeable), tuples are immutable (unchangeable).  
-- Lists use square brackets (`[]`), tuples use parentheses (`()`).
+✅ **Dictionaries are mutable**, so you can modify them anytime.
 
 ---
 
-### **Practice Exercises (10:00 - 11:30 PM)**  
+## **4️⃣ Looping Through a Dictionary**
+### **Loop through keys**
+```python
+for key in person:
+    print(key)  
+# Output: name, job
+```
 
-1. **Exercise 1:**  
-   - Create a list of your favorite foods and print it.  
-   - Change one item in the list and print it again.  
-   - Add a new item to the list and print it.
+### **Loop through values**
+```python
+for value in person.values():
+    print(value)  
+# Output: Alice, Developer
+```
 
-2. **Exercise 2:**  
-   - Create a tuple containing three numbers and print it.  
-   - Try to change an item in the tuple (you will get an error) to understand that tuples are immutable.
-
-3. **Exercise 3:**  
-   - Create a list of numbers. Sort the list, remove an item, and then print the updated list.
-   Example:  
-   ```python
-   numbers = [3, 1, 4, 5, 2]
-   numbers.sort()  # Sorts the numbers
-   numbers.remove(4)  # Removes the number 4
-   print(numbers)
-   ```
-
-4. **Exercise 4 (Challenge):**  
-   - Create a list with mixed data types (e.g., string, integer, float). Print the list and access each item.
-   Example:  
-   ```python
-   mixed_list = ["John", 25, 5.8]
-   print(mixed_list)
-   print(mixed_list[0])  # Access the name
-   print(mixed_list[1])  # Access the age
-   ```
+### **Loop through keys & values**
+```python
+for key, value in person.items():
+    print(f"{key}: {value}")
+# Output:
+# name: Alice
+# job: Developer
+```
 
 ---
 
-Once you’ve completed these exercises or if you have any questions, just let me know! I'm here to help. 😊
+## **5️⃣ What is a Set?**
+A **set** is an unordered collection of unique elements.
+
+### **Example of a Set**
+```python
+numbers = {1, 2, 3, 4, 5, 5, 3}
+print(numbers)  # Output: {1, 2, 3, 4, 5} (removes duplicates)
+```
+
+✅ **Sets do not allow duplicate values**.  
+
+---
+
+## **6️⃣ Common Set Operations**
+### **Adding and Removing Items**
+```python
+fruits = {"apple", "banana", "cherry"}
+fruits.add("mango")  # Adds an item
+fruits.remove("banana")  # Removes an item
+```
+
+### **Set Operations (Union, Intersection, Difference)**
+```python
+a = {1, 2, 3, 4}
+b = {3, 4, 5, 6}
+
+print(a | b)  # Union: {1, 2, 3, 4, 5, 6}
+print(a & b)  # Intersection: {3, 4}
+print(a - b)  # Difference: {1, 2}
+```
+
+✅ **Sets are useful when you need to store unique values and perform fast operations.**
+
+---
+
+## **🛠️ Practice Task**
+1. **Create a dictionary for a student** with keys `"name"`, `"age"`, `"grade"`, and `"subject"`. Print one value.  
+2. **Modify the dictionary** by adding a new key `"hobby"`.  
+3. **Create two sets** of favorite sports and find the common sports (intersection).  
+
+---
+
+## **🔍 Reflection & Questions**
+- When would you use a dictionary instead of a list?  
+- What happens if you try to access a key that doesn’t exist?  
+- Why are sets useful for removing duplicates?  
+
+---
+
+### **Next: Conditionals & Comparison Operators**  
+You’ll learn how to use `if-else` statements to make decisions in Python! 🚀  
+
+Let me know if you have any questions. 😊

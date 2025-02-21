@@ -88,7 +88,7 @@ for num in numbers:
 
 ---
 
-### **Tomorrow: Reflection & Improvements**  
+### **Next: Reflection & Improvements**  
 Tomorrow, you’ll review what you’ve learned and reflect on challenges. 🚀  
 
 Let me know if you have any questions! 😊

@@ -5,6 +5,7 @@
 2. [What is a Tuple?](#what-is-a-tuple)
 3. [When to Use a List vs. a Tuple?](#when-to-use-a-list-vs-a-tuple)
 4. [Extended Examples](#extended-examples)
+5. [Exercises](#exercises)
 
 
 ## **What is a List?**
@@ -302,3 +303,126 @@ print(f"Event: {event_info[0]}, Date: {event_info[1]}, Location: {location[0]}")
 - **Mixing both** is useful when you have fixed and changeable data together.
 
 Let me know if you need more examples! 😊
+---
+
+# **Exercises**
+Great! Here are some exercises for you to practice lists, tuples, and mixing both. Try to solve them on your own first before checking the hints. 😊
+
+## **🔹 Exercises Using Lists**
+### **1️⃣ Modify a Shopping List**
+Create a list of 5 grocery items. Then:
+- Add a new item to the list.
+- Remove one item from the list.
+- Replace one item with something else.
+- Print the final list.
+
+💡 **Hint**: Use `.append()`, `.remove()`, and index assignment (`list[index] = new_value`).
+
+---
+
+### **2️⃣ Sort and Find the Maximum Score**
+You have a list of scores:
+```python
+scores = [78, 92, 85, 88, 76, 95, 89]
+```
+- Sort the list in ascending order.
+- Find the highest score.
+- Print the sorted list and the highest score.
+
+💡 **Hint**: Use `.sort()` and `max()`.
+
+---
+
+### **3️⃣ Manage a To-Do List**
+- Create an empty list called `tasks`.
+- Add three tasks to it.
+- Remove the first task after it’s done.
+- Print the updated task list.
+
+💡 **Hint**: Use `.append()`, `.pop(0)`, or `.remove()`.
+
+---
+
+## **🔹 Exercises Using Tuples**
+### **4️⃣ Store Personal Information**
+Create a tuple with your:
+- Name
+- Date of birth
+- Favorite color
+
+Print each piece of information separately.
+
+💡 **Hint**: Use indexing like `tuple[0]`, `tuple[1]`, etc.
+
+---
+
+### **5️⃣ Prevent Data Modification**
+Try the following:
+- Create a tuple with three country names.
+- Try to add a new country to the tuple (what happens?).
+- Try to change the second country’s name (what happens?).
+- Explain in a comment why tuples behave this way.
+
+💡 **Hint**: Tuples are immutable (unchangeable), so modifying them will cause an error.
+
+---
+
+### **6️⃣ Access Tuple Elements**
+Given the tuple:
+```python
+fruits = ("apple", "banana", "cherry", "grape", "orange")
+```
+- Print the first and last fruit.
+- Use a loop to print each fruit.
+
+💡 **Hint**: Use `for` loop and indexing (`tuple[0]`, `tuple[-1]`).
+
+---
+
+## **🔹 Exercises Using Both Lists & Tuples**
+### **7️⃣ Store Student Information**
+- Create a tuple with a student's **name** and **ID number**.
+- Create a list with the student's **grades** (3 values).
+- Add a new grade to the list.
+- Print the student’s name, ID, and updated grades.
+
+💡 **Hint**: Use `tuple = ("name", ID)`, `list.append(new_value)`.
+
+---
+
+### **8️⃣ Store Event Details**
+- Create a tuple with an **event name** and **date**.
+- Create a list with **attendees** (3 names).
+- Add a new attendee to the list.
+- Print the event name, date, and updated attendee list.
+
+💡 **Hint**: Tuples hold fixed data, lists allow adding/removing items.
+
+---
+
+### **9️⃣ Track Product Inventory**
+- Create a tuple with a **product name** and **product ID**.
+- Create a list with **stock quantities** at three different store locations.
+- Update the stock at one location.
+- Print the product details and updated stock levels.
+
+💡 **Hint**: Use `list[index] = new_value`.
+
+---
+
+## **🔹 Bonus Challenge**
+### **🔟 Compare Lists & Tuples**
+Write a short Python script that:
+- Creates a list and a tuple with the same 3 values.
+- Tries to change a value in both.
+- Prints the result.
+
+**Expected outcome:**
+- The list changes successfully.
+- The tuple gives an error.
+
+💡 **Hint**: Lists are mutable, tuples are immutable.
+
+---
+
+Let me know if you need solutions or extra hints! Happy coding! 🚀😃

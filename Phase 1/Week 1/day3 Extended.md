@@ -1,5 +1,12 @@
 # **Tuple vs List in Python**
 
+## **Contents**
+1. [What is a List?](#what-is-a-list)
+2. [What is a Tuple?](#what-is-a-tuple)
+3. [When to Use a List vs. a Tuple?](#when-to-use-a-list-vs-a-tuple)
+4. [Extended Examples](#extended-examples)
+
+
 ## **What is a List?**
 A **list** is a collection of items that can be changed (mutable). You can add, remove, or modify elements in a list.
 

@@ -303,10 +303,11 @@ print(f"Event: {event_info[0]}, Date: {event_info[1]}, Location: {location[0]}")
 - **Mixing both** is useful when you have fixed and changeable data together.
 
 Let me know if you need more examples! 😊
+
 ---
 
 # **Exercises**
-Great! Here are some exercises for you to practice lists, tuples, and mixing both. Try to solve them on your own first before checking the hints. 😊
+Here are some exercises for you to practice lists, tuples, and mixing both. Try to solve them on your own first before checking the hints. 😊
 
 ## **🔹 Exercises Using Lists**
 ### **1️⃣ Modify a Shopping List**

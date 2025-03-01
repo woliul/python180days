@@ -1,6 +1,6 @@
-### **Tuple vs List in Python**
+# **Tuple vs List in Python**
 
-#### **What is a List?**
+## **What is a List?**
 A **list** is a collection of items that can be changed (mutable). You can add, remove, or modify elements in a list.
 
 📌 **Example of a List**:
@@ -15,7 +15,7 @@ print(fruits)  # Output: ['apple', 'banana', 'cherry']
 - **Can contain different data types** (e.g., numbers, strings, booleans)
 - **Uses square brackets `[]`**
 
-#### **What is a Tuple?**
+## **What is a Tuple?**
 A **tuple** is similar to a list, but it **cannot** be changed (immutable). Once created, you cannot add, remove, or modify elements.
 
 📌 **Example of a Tuple**:
@@ -68,10 +68,9 @@ my_tuple[1] = "yellow"  # ❌ ERROR: Tuples cannot be changed
 ### **Final Thoughts**
 - Use **lists** when you need to modify data.
 - Use **tuples** when you want data to remain constant for safety and speed.
-
-Here Below are the examples and problem-solving scenarios. I'll keep everything beginner-friendly with simple explanations.
-
 ---
+# Extended Examples
+Here are some examples and problem-solving scenarios. I'll explain everything in a simple, beginner-friendly way.
 
 ## **🔹 3 Examples Using Lists**
 ### **1️⃣ Adding and Removing Elements in a List**

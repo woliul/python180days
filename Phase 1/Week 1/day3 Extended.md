@@ -422,7 +422,7 @@ Write a short Python script that:
 - The list changes successfully.
 - The tuple gives an error.
 
-💡 **Hint**: Lists are mutable, tuples are immutable.
+💡 **Hint**: Lists are **_can be_** changed **(mutable)** , tuples are **_can not be_** changed **(immutable)**
 
 ---
 

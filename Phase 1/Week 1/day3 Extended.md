@@ -5,7 +5,7 @@
 2. [What is a Tuple?](#what-is-a-tuple)
 3. [When to Use a List vs. a Tuple?](#when-to-use-a-list-vs-a-tuple)
 4. [Extended Examples](#extended-examples)
-5. [Exercises](#exercises)
+5. [Practice/Exercises](#exercises)
 
 
 ## **What is a List?**

@@ -24,12 +24,12 @@
 ### **Weekly Focus on Challenges and Problem-Solving (Weeks 1–30)**  
 
 
-| Phase| Topic| Duration | Weekly Breakdown|
-|------|------|----------|-----------------|
-|**Phase 1**|**Python Fundamentals and Basic Development**|Weeks 1–4|**Week 1:** Python basics (variables, data types, loops, control flow) <br> **Week 2:** Functions, error handling, and mini‑projects <br> **Week 3:** Strings, file I/O, and introductory mini‑projects <br> **Week 4:** Advanced data structures and version control (Git) |
-| **Phase 2**|**Web Development Basics** |Weeks 5–8| **Week 5:** Introduction to HTML/CSS and JavaScript fundamentals <br> **Week 6:** Basic web frameworks (Flask/Django) and building simple APIs <br> **Week 7:** SQL and database integration <br> **Week 8:** Building a basic web app with integrated databases |
-| **Phase 3**|**Advanced Web Development (Including Docker & CI/CD)** | Weeks 9–12 | **Week 9:** Advanced JavaScript and an introduction to React <br> **Week 10:** REST API development (using Flask/Django REST Framework) <br> **Week 11:** Docker fundamentals and containerization <br> **Week 12:** Introduction to CI/CD pipelines and deploying web apps |
-| **Phase 4**|**Introduction to Data Science and Machine Learning** | Weeks 13–20 | **Weeks 13–16:** Data Science Foundations (NumPy, Pandas, data visualization, EDA, regression models) <br> **Weeks 17–20:** Machine Learning Basics (classification models, neural networks, model evaluation, ML model deployment) |
+| Phase| Topic| Duration    | Weekly Breakdown                                                                                                                                                                                                                                                                                                                                  |
+|------|------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|**Phase 1**|**Python Fundamentals and Basic Development**| Weeks 1–4   | **Week 1:** Python basics (variables, data types) <br> **Week 2:** Functions, loops, control flow and mini‑projects <br> **Week 3:** Strings, error handling, file I/O, and introductory mini‑projects <br> **Week 4:** Advanced data structures and version control (Git)                                                                        |
+| **Phase 2**|**Web Development Basics** | Weeks 5–12  | **Week 5:** Introduction to HTML/CSS and JavaScript fundamentals <br> **Week 6:** Basic web frameworks (Flask/Django) and building simple APIs <br> **Week 7:** SQL and database integration <br> **Week 8:** Building a basic web app with integrated databases                                                                                  |
+| **Phase 3**|**Advanced Web Development (Including Docker & CI/CD)** | Weeks 9–12  | **Week 9:** Advanced JavaScript and an introduction to React <br> **Week 10:** REST API development (using Flask/Django REST Framework) <br> **Week 11:** Docker fundamentals and containerization <br> **Week 12:** Introduction to CI/CD pipelines and deploying web apps                                                                       |
+| **Phase 4**|**Introduction to Data Science and Machine Learning** | Weeks 13–20 | **Weeks 13–16:** Data Science Foundations (NumPy, Pandas, data visualization, EDA, regression models) <br> **Weeks 17–20:** Machine Learning Basics (classification models, neural networks, model evaluation, ML model deployment)                                                                                                               |
 | **Phase 5**|**Advanced AI/ML, Full-Stack Development, Docker, and CI/CD** | Weeks 21–30 | **Weeks 21–24:** Advanced Machine Learning (reinforcement learning, advanced algorithms like XGBoost, SVM) <br> **Weeks 25–27:** Full‑Stack AI and Docker (building AI-integrated web apps, advanced Docker, and CI/CD for production) <br> **Weeks 28–30:** Final project & deployment (cloud deployment, final project development, and launch) |
 
 ### **Final Tips for Success:**
@@ -107,43 +107,213 @@
 - 9:00–9:45 PM: Learn new concepts  
 - 9:45–11:30 PM: Practice exercises and mini‑projects
 
-#### **Weeks 5–6 (Days 31–44: Object‑Oriented Programming)**
+### **Week 5: Object-Oriented Programming (Days 31–37)**
 
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **31**  | Introduction to classes and objects                           | Define a simple class (e.g., Car)                          |
 | **32**  | Methods and constructors                                      | Implement class methods and constructors                 |
 | **33**  | Instance vs. class variables                                  | Experiment with both variable types in classes            |
-| **34**  | Inheritance and method overriding                             | Create a subclass (e.g., ElectricCar) and override methods  |
+| **34**  | Inheritance and method overriding                             | Create a subclass (e.g., ElectricCar) and override methods |
 | **35**  | Polymorphism and core OOP principles                           | Write programs that demonstrate polymorphism             |
 | **36**  | Practice: OOP coding exercises                                  | Solve practical OOP challenges                           |
 | **37**  | **Reflection (Week 5):** Review OOP fundamentals                | Document design decisions and improvements                |
+
+---
+
+### **Week 6: OOP Advanced Techniques & Mini Project (Days 38–44)**
+
+| **Day** | **Learn**                                                    | **Practice**                                              |
+|---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **38**  | Advanced OOP: Encapsulation and abstraction                    | Enhance class designs with private attributes             |
-| **39**  | Practice: Build an OOP system (e.g., employee management)         | Code a small application using multiple classes           |
-| **40**  | Mini project: Bank account simulation or student management       | Begin coding your mini project with OOP concepts            |
+| **39**  | Practice: Build an OOP system (e.g., employee management)      | Code a small application using multiple classes           |
+| **40**  | Mini project: Bank account simulation or student management  | Begin coding your mini project with OOP concepts          |
 | **41**  | Continue mini project development                             | Add features and refine your OOP project                    |
 | **42**  | Project review and optimization                                | Refactor and optimize your OOP code                        |
-| **43**  | Extra exercises on advanced OOP topics                         | Solve additional design challenges                        |
+| **43**  | Extra exercises on advanced OOP topics                        | Solve additional design challenges                        |
 | **44**  | **Reflection (Week 6):** Review OOP projects and lessons         | Reflect on challenges and next steps                      |
 
-#### **Weeks 7–8 (Days 45–58: Modules, Packages & Intro to Web Basics)**
+---
+
+### **Week 7: Web Basics, APIs & Data Handling (Days 45–51)**
 
 | **Day** | **Learn**                                                    | **Practice**                                              |
 |---------|--------------------------------------------------------------|-----------------------------------------------------------|
 | **45**  | Python modules and standard libraries                           | Experiment with modules like `math` and `datetime`         |
-| **46**  | Creating custom modules and code organization                  | Create and import your own module                          |
-| **47**  | Combining multiple modules in projects                          | Build a small project that uses several modules            |
-| **48**  | **Intro to Web Basics:** HTML/CSS & JavaScript fundamentals (overview)  | Build a static webpage (basic HTML structure and styling)   |
-| **49**  | Python packages and the `pip` tool                              | Install and test a third‑party package                    |
-| **50**  | Virtual environments and project structure                     | Set up a virtual environment for your project             |
-| **51**  | Mini project: Package management and reusable components          | Develop a small project focused on modular design          |
-| **52**  | Project planning for API-based projects                          | Outline an app that uses an external API                   |
-| **53**  | Mini project: Weather data fetcher using APIs                   | Begin coding your API consumer application                |
-| **54**  | Continue API project development                              | Enhance your API project with error handling               |
-| **55**  | Extra exercises on modules and package integration               | Work on additional module challenges                      |
-| **56**  | **Reflection (Week 8):** Review modules, packages, APIs & web basics    | Reflect on what worked and what to refine                  |
-| **57**  | Catch-up/Deep dive into module topics + review HTML/CSS exercises   | Revisit any unclear areas                                   |
-| **58**  | Q&A and documentation of challenges                           | Record common issues and solutions                        |
+| **46**  | Introduction to web development: HTML, CSS, JavaScript (overview) | Build a static webpage (basic HTML structure and styling) |
+| **47**  | Python packages and the `pip` tool                              | Install and test a third-party package                    |
+| **48**  | Virtual environments and project structure                     | Set up a virtual environment for your project             |
+| **49**  | Introduction to REST APIs and their usage                     | Explore public APIs (e.g., weather, news)                 |
+| **50**  | Consuming APIs using the `requests` library                     | Build a simple API consumer application                   |
+| **51**  | **Reflection:** Review modules, packages, APIs & web basics    | Reflect on what worked and what to refine                  |
+
+---
+
+### **Week 8: Data Scraping & Mini Project (Days 52–58)**
+
+| **Day** | **Learn**                                                    | **Practice**                                              |
+|---------|--------------------------------------------------------------|-----------------------------------------------------------|
+| **52**  | Web scraping fundamentals with BeautifulSoup                     | Scrape data from a chosen website                          |
+| **53**  | Handling CSV/Excel files: Reading and writing data              | Practice file I/O using CSV/Excel libraries                |
+| **54**  | Mini project: Build a simple web scraper/API consumer             | Begin your API/web scraping project                        |
+| **55**  | Data visualization basics (using `matplotlib`)                    | Create basic plots (e.g., bar, line charts)                |
+| **56**  | Continue mini project development                              | Enhance your web scraping/API project                      |
+| **57**  | Project review and optimization                                | Refactor and optimize your data project                    |
+| **58**  | **Reflection (Week 8):** Review data handling, APIs & web basics    | Reflect on project challenges and successes                |
+
+---
+
+### **Week 9: Data Analysis, SQL & Advanced Topics (Days 59–65)**
+
+| **Day** | **Learn**                                                    | **Practice**                                              |
+|---------|--------------------------------------------------------------|-----------------------------------------------------------|
+| **59**  | JSON and data serialization basics                             | Write code to serialize/deserialize JSON data             |
+| **60**  | Introduction to SQL: Basic queries and database concepts       | Write simple SQL queries using SQLite                      |
+| **61**  | Consuming APIs and Web scraping data                           | Enhance API/web scraping project with data analysis       |
+| **62**  | Advanced data handling techniques: Optimization and error handling | Solve challenges related to data handling                |
+| **63**  | Mini project: Data analysis with file data and SQL integration      | Enhance your project by adding basic SQL operations         |
+| **64**  | **Reflection (Week 9):** Review data handling, APIs & SQL usage        | Reflect on project challenges and successes                |
+| **65**  | **Final Reflection for Phase 2:** Consolidate learning       | Final Q&A and practice session for Phase 2 topics         |
+
+Here’s the updated schedule with Weeks 10 and beyond:
+
+---
+
+### **Phase 3: Advanced Topics (Days 91–120)**  
+**Goal:** Explore more advanced Python concepts like algorithms, data structures, and machine learning.
+
+---
+
+#### **Week 10: Advanced Data Structures and Algorithms**
+
+| **Day** | **Learn**                                    | **Practice**                             |
+|---------|----------------------------------------------|------------------------------------------|
+| **64**  | Stacks and Queues: Basic operations.          | Implement a stack using lists and practice push/pop operations. |
+| **65**  | Linked Lists: Basic structure.                | Create a singly linked list and perform insert/delete operations. |
+| **66**  | Trees: Binary trees and traversals.           | Implement a binary tree and perform in-order traversal. |
+| **67**  | Graphs: Representation and traversal (DFS/BFS). | Implement a graph and perform BFS and DFS traversal. |
+| **68**  | Advanced sorting algorithms (Heap Sort, Radix Sort). | Implement Heap Sort. |
+| **69**  | Introduction to dynamic programming.          | Solve a problem like Fibonacci using dynamic programming. |
+| **70**  | **Reflection**: Review advanced data structures. | Practice problem-solving using different data structures. |
+
+---
+
+#### **Week 11: Introduction to Machine Learning**
+
+| **Day** | **Learn**                                    | **Practice**                             |
+|---------|----------------------------------------------|------------------------------------------|
+| **71**  | Introduction to machine learning concepts.   | Install and explore `scikit-learn`. |
+| **72**  | Supervised learning (classification vs regression). | Implement a simple classification model using `scikit-learn`. |
+| **73**  | Training and testing machine learning models. | Split data into training/testing sets and evaluate a model. |
+| **74**  | Introduction to linear regression.           | Implement linear regression on a dataset. |
+| **75**  | Introduction to classification (KNN, SVM).   | Build a KNN classifier and test it on a dataset. |
+| **76**  | Feature scaling and preprocessing.           | Normalize features and use preprocessing techniques on data. |
+| **77**  | **Reflection**: Review machine learning concepts. | Practice with different algorithms and datasets. |
+
+---
+
+#### **Week 12: Deep Learning Basics**
+
+| **Day** | **Learn**                                    | **Practice**                             |
+|---------|----------------------------------------------|------------------------------------------|
+| **78**  | Introduction to neural networks.             | Build a simple neural network with `Keras`. |
+| **79**  | Activation functions and backpropagation.    | Implement a neural network with multiple layers. |
+| **80**  | Training neural networks.                    | Train a neural network on a basic dataset (e.g., MNIST). |
+| **81**  | Introduction to Convolutional Neural Networks (CNNs). | Build a simple CNN for image classification. |
+| **82**  | Introduction to Recurrent Neural Networks (RNNs). | Build an RNN for sequential data (e.g., text prediction). |
+| **83**  | Hyperparameter tuning and optimization.      | Optimize your neural network’s hyperparameters. |
+| **84**  | **Reflection**: Review deep learning topics. | Experiment with neural networks on various datasets. |
+
+---
+
+### **Phase 4: Real-world Applications (Days 121–180)**  
+**Goal:** Apply Python skills to build larger projects in web development, data science, and automation.
+
+---
+
+#### **Week 13: Web Development with Flask**
+
+| **Day** | **Learn**                                    | **Practice**                             |
+|---------|----------------------------------------------|------------------------------------------|
+| **85**  | Introduction to Flask and web frameworks.    | Set up a basic Flask app that displays "Hello World". |
+| **86**  | Flask routing: URL patterns and HTTP methods. | Create routes and handle GET/POST requests. |
+| **87**  | Templates and Jinja2 for rendering HTML.     | Create dynamic pages using Jinja2 templates. |
+| **88**  | Forms and user input handling.               | Create a form where users can input data. |
+| **89**  | Flask and databases (using SQLite).          | Build a basic app with user login using SQLite. |
+| **90**  | Authentication and session management in Flask. | Implement user registration and login with sessions. |
+| **91**  | **Reflection**: Review Flask web development. | Build and test a small web application. |
+
+---
+
+#### **Week 14: Data Science and Pandas**
+
+| **Day** | **Learn**                                    | **Practice**                             |
+|---------|----------------------------------------------|------------------------------------------|
+| **92**  | Advanced Pandas techniques (groupby, pivot).  | Group data by categories and calculate summary statistics. |
+| **93**  | Data visualization with `matplotlib` and `seaborn`. | Create bar plots, histograms, and box plots. |
+| **94**  | Advanced data visualization (heatmaps, pairplots). | Visualize correlations and distributions in data. |
+| **95**  | Exploratory data analysis (EDA).             | Perform EDA on a real-world dataset. |
+| **96**  | Statistical analysis in Python.              | Use `scipy` to perform t-tests and other statistical analyses. |
+| **97**  | Introduction to machine learning with `pandas`. | Build a basic machine learning model using Pandas data. |
+| **98**  | **Reflection**: Review data science concepts. | Practice data analysis on different datasets. |
+
+---
+
+#### **Week 15: Automation with Python**
+
+| **Day** | **Learn**                                    | **Practice**                             |
+|---------|----------------------------------------------|------------------------------------------|
+| **99**  | Introduction to automation with Python.      | Write a script to automate renaming files. |
+| **100** | Web scraping with `BeautifulSoup`.           | Scrape product information from an e-commerce site. |
+| **101** | Automating emails with `smtplib`.            | Write a script to send automated emails. |
+| **102** | Automating Excel file manipulation with `openpyxl`. | Write a script to automatically generate reports in Excel. |
+| **103** | Automating file backups and organization.   | Write a script to back up important files regularly. |
+| **104** | Working with APIs to automate tasks.        | Automate data retrieval from a public API. |
+| **105** | **Reflection**: Review automation tasks.     | Automate a personal workflow with Python. |
+
+---
+
+#### **Week 16: Final Project Phase (Planning)**
+
+| **Day** | **Learn**                                    | **Practice**                             |
+|---------|----------------------------------------------|------------------------------------------|
+| **106** | Brainstorming project ideas.                 | Write down your project ideas and choose a final project. |
+| **107** | Project planning and design.                | Create a detailed plan (e.g., user stories, features, timeline). |
+| **108** | System architecture and technology stack.   | Decide on the tech stack and database for your project. |
+| **109** | Breaking the project into milestones.       | Set milestones and create a project timeline. |
+| **110** | Defining project requirements.               | Gather and define project requirements. |
+| **111** | Project documentation basics.               | Create the documentation for your project. |
+| **112** | **Reflection**: Review project planning.     | Finalize the project outline and plan. |
+
+---
+
+#### **Week 17-18: Building the Final Project**
+
+| **Day** | **Learn**                                    | **Practice**                             |
+|---------|----------------------------------------------|------------------------------------------|
+| **113-120** | Build the final project (steps as per design). | Work on different components of the project each day (frontend, backend, API integration, etc.). |
+| **121-126** | Implement the backend (databases, APIs, etc.). | Integrate features into your project, such as user authentication, data retrieval, or processing. |
+| **127-132** | Implement the frontend (UI/UX, forms, etc.).  | Build the user interface, making sure it’s intuitive and functional. |
+| **133-138** | Testing and debugging.                      | Test your project thoroughly and fix any issues. |
+| **139-144** | Performance optimization.                    | Optimize code and improve performance where needed. |
+| **145-150** | Final touches: documentation, deployment.    | Write final documentation, prepare for deployment, and deploy the app. |
+| **151-154** | **Reflection**: Review the final project.     | Final review of the completed project, sharing it with others. |
+
+---
+
+#### **Week 19-20: Review & Refinement**
+
+| **Day** | **Learn**                                    | **Practice**                             |
+|---------|----------------------------------------------|------------------------------------------|
+| **155-160** | Review and refine the entire learning journey. | Reflect on the entire learning experience, identify areas of improvement. |
+| **161-165** | Revisit key areas of weakness.               | Work on specific exercises that challenge you the most. |
+| **166-170** | Expand on final project.                     | Add additional features to your project (e.g., extra functionality, API connections). |
+| **171-175** | Mastering Python libraries (e.g., NumPy, pandas). | Revisit advanced libraries for data science, web scraping, and machine learning. |
+| **176-180** | Final evaluation and portfolio preparation.  | Prepare your portfolio, showcase final projects, and update your resume. |
+
+---
+
+This completes the full **180-day plan**. It now includes the entire 19th and 20th weeks for review, refinement, and final project additions. Let me know if you need any further adjustments!
 
 #### **Weeks 9–10 (Days 59–72: Data Handling, APIs & Intro to SQL)**
 

@@ -166,23 +166,23 @@ Here’s a distilled list of **Best Practices** and **Most-Used Methods**, broke
 
 ## 🏁 Summary Table of Methods (with Usage Process)
 
-| Method          | Use Case Example                  | Time Benefit  | How to Use / Process Summary                                    |
-| --------------- | --------------------------------- | ------------- | --------------------------------------------------------------- |
-| Brute Force     | Try everything                    | ❌ Slow        | Implement naive solution → Use for validation/test cases        |
-| Greedy          | Scheduling, interval problems     | ✅ Fast        | Verify greedy property → Pick best local option iteratively     |
-| Two Pointers    | Subarrays, strings                | ✅ O(n)        | Use two indices to maintain window → Move to keep conditions    |
-| Binary Search   | Threshold problems, sorted arrays | ✅ O(log n)    | Define search range and predicate → Binary search for answer    |
-| Prefix Sum      | Range sums                        | ✅ O(1)        | Precompute prefix sums → Answer queries with O(1) operations    |
-| DP              | State problems, optimization      | ✅ Optimal     | Define states & recurrences → Memoize or tabulate results       |
-| Graph (BFS/DFS) | Connectivity, shortest paths      | ✅ Essential   | Model graph → Apply correct traversal/shortest path algorithm   |
-| Union-Find      | Component grouping                | ✅ Fast        | Use union-find to manage disjoint sets efficiently              |
-| Backtracking    | Search with undo                  | ❌ Exponential | Recursive exploration → Prune branches to limit search          |
-| Bitmasking      | Subsets, flags, DP state          | ✅ Compact     | Encode sets as bits → Use bit operations to manage states       |
-| Math            | GCD, Primes, Modulo               | ✅ Clean       | Apply mathematical formulas and theorems → Use precomputed data |
+| Method                | Use Case Example                  | Time Benefit  | How to Use / Process Summary                                    |
+| --------------------- | --------------------------------- | ------------- | --------------------------------------------------------------- |
+| Brute Force           | Try everything                    | ❌ Slow        | Implement naive solution → Use for validation/test cases        |
+| Greedy                | Scheduling, interval problems     | ✅ Fast        | Verify greedy property → Pick best local option iteratively     |
+| Two Pointers          | Subarrays, strings                | ✅ O(n)        | Use two indices to maintain window → Move to keep conditions    |
+| Binary Search         | Threshold problems, sorted arrays | ✅ O(log n)    | Define search range and predicate → Binary search for answer    |
+| Prefix Sum            | Range sums                        | ✅ O(1)        | Precompute prefix sums → Answer queries with O(1) operations    |
+| DP                    | State problems, optimization      | ✅ Optimal     | Define states & recurrences → Memoize or tabulate results       |
+| Graph (BFS/DFS)       | Connectivity, shortest paths      | ✅ Essential   | Model graph → Apply correct traversal/shortest path algorithm   |
+| Union-Find            | Component grouping                | ✅ Fast        | Use union-find to manage disjoint sets efficiently              |
+| Backtracking          | Search with undo                  | ❌ Exponential | Recursive exploration → Prune branches to limit search          |
+| Bitmasking            | Subsets, flags, DP state          | ✅ Compact     | Encode sets as bits → Use bit operations to manage states       |
+| Math                  | GCD, Primes, Modulo               | ✅ Clean       | Apply mathematical formulas and theorems → Use precomputed data |
 
 ---
 
-Let’s walk through each **problem-solving method**, explaining its core idea **plus a step-by-step pseudo-process** you can follow to use it effectively on *any* problem.
+> Let’s walk through each **problem-solving method**, explaining its core idea **plus a step-by-step pseudo-process** you can follow to use it effectively on *any* problem.
 
 ## 1. Brute Force First
 
